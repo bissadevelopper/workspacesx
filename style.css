@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+background-image: url(/ambitious-smart-creative-stylish-young-businessman-round-glasses-with-beard-blue-eyes-standing-trendy-suit-smiling-broadly-feeling-amazed-excited-starting-new-project.jpg);
+background-position: center top left ;
+background-size: cover;
+    height: 700px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 10px;
+}
+
+.logo{
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+span{
+    color: red;
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+.btn{
+    border: none ;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.header-title{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.fb,.tw,.li{
+    padding: 1px;
+    color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(248, 0, 0);
+}
+.about img{
+width: 400px;
+height: auto;
+}
+
+.about-me{
+    width: 500px;
+color: white;}
+
+.main{
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.about-me h5{
+    font-size: 25px;
+    color: yellow;
+    text-transform: uppercase;
+}
+.about-me p {
+    font-size: 12px;
+}
+
+.service{
+    width: 100%;
+    padding: 50px auto;
+    background-color: rgb(250, 252, 252);
+}
+
+.title-service h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 30px 0px 30px 0px ;
+    font-size: 40px;
+    width: 100% ;
+}
+
+.card i {
+    color: yellow;
+    display: block;
+font-size: 50px;
+margin: 20px 0px;
+text-align: center;
+}
+
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgb(0, 0, 0);
+}
+
+.card a {
+    margin-top: 10px;
+    padding: 2px;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+
+.card{
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+position: relative;
+overflow: hidden;
+    padding: 20px 30px;
+}
+
+.card h5{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.para1{
+    text-align: center;
+color: yellow;
+}
+
+.para2{
+    text-align: center;
+
+    color: yellow;
+}
+
+footer{
+    background-color: rgb(199, 196, 196);
+    color: black;
+    text-align: center;
+}
+
+
+
+@media (max-width: 400px) {
+
+    .header{
+        background-position: center;
+        background-image: url(/ambitious-smart-creative-stylish-young-businessman-round-glasses-with-beard-blue-eyes-standing-trendy-suit-smiling-broadly-feeling-amazed-excited-starting-new-project.jpg);
+        width: 100%;
+    }
+
+
+
+ nav ul li {
+    width: 60%;
+    display: block;
+ }
+
+.btn{
+    display: none;
+}
+
+.about img{
+    display: none;
+}
+
+.about-me h2{
+    text-align: center;
+}
+.about-me h5{
+    text-align: center;
+}
+
+.about-me p {
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 387px;
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card i{
+    color: white;
+}
+
+.card h5{
+    color: red;
+}
+
+.card p{
+    font-size: 12px;
+    color: white;
+}
+
+.header-title h1{
+    font-size: 17px;
+}
+
+.header-title h3{
+    display: block;
+    font-size: 10px;
+}
+
+}
+
+
